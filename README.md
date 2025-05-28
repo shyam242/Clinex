@@ -38,22 +38,24 @@ Clinex empowers users to:
 
 ---
 
-## 🔄 System Workflow
+##⚙️ Getting Started
+### Prerequities
+Node.js installed
+npm installed
+Firebase project setup
 
-```mermaid
-graph TD
-  A[User Lands on Clinex Homepage] --> B{Already Registered?}
-  B -- Yes --> C[Login Page]
-  B -- No --> D[Signup Page]
-  C --> E[Dashboard / Health Assistant]
-  D --> E[Dashboard / Health Assistant]
-  E --> F[User Inputs Symptoms]
-  F --> G[Predefined Symptoms List]
-  G --> H[AI Matches Symptoms with Conditions]
-  H --> I[Display Diagnosis Message]
-  I --> K{Need Further Help?}
-  K -- Yes --> L[Redirect to Chat Support]
-  K -- No --> M[End Session]
+###Clone the repository
+git clone https://github.com/yourusername/clinex.git
+cd clinex
+
+###Install dependencies
+npm install
+
+###Configure Firebase
+Create a firebase.js file and add your Firebase configuration:
+
+###Run the server
+node backend/server.js
 
 
 

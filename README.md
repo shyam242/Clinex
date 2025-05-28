@@ -35,6 +35,25 @@ Clinex empowers users to:
 
 ---
 
-## 📂 Folder Structure
+
+---
+
+## 🔄 System Workflow
+
+```mermaid
+graph TD
+  A[User Lands on Clinex Homepage] --> B{Already Registered?}
+  B -- Yes --> C[Login Page]
+  B -- No --> D[Signup Page]
+  C --> E[Dashboard / Health Assistant]
+  D --> E[Dashboard / Health Assistant]
+  E --> F[User Inputs Symptoms]
+  F --> G[Predefined Symptoms List]
+  G --> H[AI Matches Symptoms with Conditions]
+  H --> I[Display Diagnosis Message]
+  I --> K{Need Further Help?}
+  K -- Yes --> L[Redirect to Chat Support]
+  K -- No --> M[End Session]
+
 
 

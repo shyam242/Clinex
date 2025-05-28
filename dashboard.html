@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clinex</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="icon" type="image/png" href="icons.svg" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <img src="icons.svg" alt="Clinex logo" />
+    <h1>Clinex</h1>
+  </nav>
+
+  <!-- Dashboard Content -->
+  <main class="dashboard">
+
+    <!-- Profile Card -->
+    <section class="profile-card">
+      <div class="avatar">SK</div>
+      <h2>Shyam Kumar</h2>
+      <p>Age: 19</p>
+      <button class="button">Update Profile</button>
+    </section>
+
+    <!-- Action Cards -->
+    <section class="card-links">
+      <div class="link-cardone" style="border-color: #f99;">
+        <span style="color: red;">Your Health Status</span>
+        ❤️
+      </div>
+    <a href="/assistant.html"><div class="link-cardtwo" style="border-color: #f9f;">
+        <span style="color: purple;">Symptoms Checker</span>
+        🧠
+      </div>
+    </a>
+   <a href="/tips.html"><div class="link-cardthree" style="border-color: #99f;"
+         style="text-decoration: none; color: inherit;">
+          <span style="color: blue;"> Health Tips</span>
+          📋
+      </div>
+   </a>
+    </section>
+
+  </main>
+
+  <!-- Info and Recommendations -->
+  <section class="dashboard">
+    <div class="info-card">
+      <h3>Information</h3>
+      <div class="info-list">
+        <h2 id="name"></h2>
+        <p id="age"></p>
+        <p id="gender"></p>
+        <p id="bloodGroup"></p>
+        <p id="symptoms"></p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Tawk.to Chat Widget -->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/6835d92d4c7a06190bd4cf44/1is95gmma';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+
+</body>
+
+</html>

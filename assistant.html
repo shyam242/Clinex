@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Clinex</title>
+  <link rel="icon" href="icons.svg" />
+  <link rel="stylesheet" href="assistant.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo">
+      <img class="img" src="icons.svg" alt="Clinex Logo" />
+      <div class="name">Clinex</div>
+    </div>
+    <hr />
+  </header>
+
+  <div class="chat-container">
+    <div class="chat-header">🧠 Virtual Health Assistant</div>
+    <div id="chat-box" class="chat-box"></div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="e.g. fever,cough,headache" />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="assistant.js"></script>
+</body>
+</html>

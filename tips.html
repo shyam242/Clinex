@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinex</title>
+    <link rel="stylesheet" href="tips.css">
+    <link rel="icon" href="icons.svg">
+</head>
+<body>
+      <span class="header">
+        <div class="logo">
+            <img class="img" src="icons.svg">
+            <div class="name">Clinex</div>
+        </div>
+        <hr>
+        <div class="container">
+        <h1>Health Tips</h1>
+        <ul id="healthTips">
+          <li>
+        <div class="habit">
+      <div class="habit-icon">🛌</div>
+      <div class="habit-text"><span class="highlight">Prioritize sleep:</span> Aim for 7–9 hours of quality sleep nightly.</div>
+    </div>
+          </li>
+           <li>
+    <div class="habit">
+      <div class="habit-icon">💧</div>
+      <div class="habit-text"><span class="highlight">Stay hydrated:</span> Drink plenty of water throughout the day.</div>
+    </div>
+           </li>
+           <li>
+    <div class="habit">
+      <div class="habit-icon">🥗</div>
+      <div class="habit-text"><span class="highlight">Eat a balanced diet:</span> Focus on fruits, vegetables, whole grains, and lean proteins.</div>
+    </div>
+           </li>
+            <li>
+    <div class="habit">
+      <div class="habit-icon">🧘</div>
+      <div class="habit-text"><span class="highlight">Manage stress:</span> Incorporate stress-reducing activities like exercise or meditation.</div>
+    </div>
+            </li>
+            <li>
+    <div class="habit">
+      <div class="habit-icon">🏃</div>
+      <div class="habit-text"><span class="highlight">Regular exercise:</span> Aim for at least 30 minutes of moderate-intensity exercise most days of the week.</div>
+    </div>
+            </li>
+            <li>
+    <div class="habit">
+      <div class="habit-icon">⚖️</div>
+      <div class="habit-text"><span class="highlight">Maintain a healthy weight:</span> Eat a balanced diet and exercise regularly.</div>
+    </div>
+            </li>
+            <li>
+    <div class="habit">
+      <div class="habit-icon">🚫</div>
+      <div class="habit-text"><span class="highlight">Limit processed foods:</span> Avoid sugary drinks and unhealthy fats.</div>
+    </div>
+            </li>
+            <li>
+    <div class="habit">
+      <div class="habit-icon">🧼</div>
+      <div class="habit-text"><span class="highlight">Practice good hygiene:</span> Wash your hands frequently.</div>
+    </div>
+            </li>
+            <li>
+    <div class="habit">
+      <div class="habit-icon">🚭</div>
+      <div class="habit-text"><span class="highlight">Don't smoke:</span> Smoking significantly impacts overall health.</div>
+    </div>
+            </li>
+        </ul>
+         <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const list = document.getElementById("healthTips");
+    const items = Array.from(list.children);
+
+    // Shuffle the array
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+
+    // Re-append shuffled items
+    items.forEach(item => list.appendChild(item));
+  });
+</script>
+
+    </div>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6835d92d4c7a06190bd4cf44/1is95gmma';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

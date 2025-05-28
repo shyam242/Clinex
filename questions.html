@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinex</title>
+    <link rel="stylesheet" href="questions.css">
+     <link rel="icon" href="icons.svg">
+</head>
+<body>
+   <div class="container">
+    <h2>🧾 Complete your profile</h2>
+    <p class="subtitle">Please provide the following information</p>
+ <div class="stepper step-progress" id="stepper">
+      <div class="step active">1</div>
+      <div class="step">2</div>
+      <div class="step">3</div>
+      <div class="step">4</div>
+    </div>
+
+    <form id="multiStepForm">
+      <!-- Step 1: Personal Info -->
+      <div class="form-step active">
+        <label class="label">Gender</label>
+        <div class="gender-options">
+          <button type="button" class="gender-btn">Male</button>
+          <button type="button" class="gender-btn">Female</button>
+          <button type="button" class="gender-btn">Other</button>
+        </div>
+
+        <div class="input-group">
+          <div>
+            <label class="label">Weight (kg)</label>
+            <input type="number" placeholder="e.g. 65">
+          </div>
+          <div>
+            <label class="label">Height (cm)</label>
+            <input type="number" placeholder="e.g. 170">
+          </div>
+        </div>
+
+        <div class="input-group">
+          <div>
+            <label class="label">Age</label>
+            <input type="number" placeholder="e.g. 25">
+          </div>
+          <div>
+            <label class="label">Blood Group</label>
+            <select>
+              <option disabled selected>Select</option>
+              <option>A+</option>
+              <option>A-</option>
+              <option>B+</option>
+              <option>B-</option>
+              <option>AB+</option>
+              <option>AB-</option>
+              <option>O+</option>
+              <option>O-</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2: Symptoms -->
+      <div class="form-step">
+        <label class="label">Symptoms</label>
+        <textarea placeholder="Describe your symptoms, how often and on a scale of 1-10..." rows="5"></textarea>
+      </div>
+
+      <!-- Step 3: Medications -->
+      <div class="form-step">
+        <label class="label">Medications</label>
+        <textarea placeholder="List any medications you are currently taking, how often, dosage, purpose and adherence..." rows="5"></textarea>
+      </div>
+
+      <!-- Step 4: Medical Issues -->
+      <div class="form-step">
+        <label class="label">Medical Issues</label>
+        <textarea placeholder="Any known medical issues or history..." rows="5"></textarea>
+      </div>
+
+      <div class="navigation-buttons">
+        <button type="button" id="prevBtn">← Back</button>
+        <button type="button" id="nextBtn">Next →</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="questions.js"></script>
+</body>
+</html>

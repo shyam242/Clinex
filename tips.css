@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "roboto" sans-serif;
+  background-color: #ffff;
+  color: #000;
+  overflow: hidden;
+}
+
+.img {
+  height: 32px;
+  width: 32px;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  align-items: center; /* Vertically centers the icon and text */
+  gap: 10px; /* Adds spacing between the icon and the text */
+  top: 1vw;
+  left: 6vw;
+  gap: 5px;
+}
+h1 {
+  position: relative;
+  font-weight: 520;
+  left: 10vw;
+  top: 3vw;
+}
+hr {
+  position: relative;
+  top: 2vw;
+  opacity: 0.5;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+.container {
+  background: #fff;
+  max-width: 700px;
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+h1 {
+  position: relative;
+  font-weight: 520;
+  left: 22vw;
+  top: 1vw;
+  text-align: center;
+  color: #2b2b2b;
+  margin-bottom: 1.2rem;
+}
+
+.habit {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+}
+
+.habit-icon {
+  background-color: #4f46e5;
+  color: white;
+  font-size: 1.2rem;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+li{
+  list-style: none;
+}
+.habit-text {
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.5;
+}
+
+.highlight {
+  background-color: #fff5e0;
+  padding: 0 4px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+

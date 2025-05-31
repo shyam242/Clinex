@@ -35,9 +35,6 @@ Clinex empowers users to:
 
 ---
 
-
----
-
 ## 🏗️ Architecture
 
 ```
@@ -84,6 +81,7 @@ Create a firebase.js file and add your Firebase configuration:
 
 4. Run the server
 node backend/server.js
+--- 
 
 ## 🖼️ Screenshots
 
@@ -109,6 +107,8 @@ Integration with wearable health devices
 Direct video consultations with verified professionals
 
 - **Multi-Language Support**
+
+---
 
   ## ⚠️ Prototype Limitations
 

@@ -89,7 +89,7 @@ node backend/server.js
 
 | Clinex         | Symptoms Details      |
 |----------------------|----------------------|
-| ![Clinex](Clinex.png) | ![Symptoms Detail](Symptoms.png) 
+| ![Clinex](Clinex.png) | ![Symptoms Detail](symptoms.png) 
 
 | Dashboard   | Assistant  |
 |----------------------|----------------------|

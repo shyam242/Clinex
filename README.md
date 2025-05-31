@@ -38,24 +38,101 @@ Clinex empowers users to:
 
 ---
 
-##⚙️ Getting Started
-### Prerequities
-Node.js installed
-npm installed
-Firebase project setup
+## 🏗️ Architecture
 
-###Clone the repository
-git clone https://github.com/yourusername/clinex.git
-cd clinex
+```
++----------------+        +----------------+        +----------------+
+|                |        |                |        |                |
+|   React.js     | <----> |   Node.js      | <----> |    MongoDB     |
+|  (Frontend)    |        |   (Backend)    |        |  (Database)    |
+|                |        |                |        |                |
++----------------+        +----------------+        +----------------+
+        |                 
+        |                         
+        v                         
++----------------+
+|                |
+| Firebase Auth  |
+| (Security)     |
+|                |
++----------------+
 
-###Install dependencies
+QR Code Generation & One-Time Access Flow Integrated
+```
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/shyam242/Clinex/
+cd Clinex
+```
+
+2. Install dependencies for server and client:
+
+```bash
 npm install
+cd client
+npm install
+```
 
-###Configure Firebase
+3. Configure Firebase
 Create a firebase.js file and add your Firebase configuration:
 
-###Run the server
+4. Run the server
 node backend/server.js
 
+## 🖼️ Screenshots
+
+| Clinex         | Symptoms Details      |
+|----------------------|----------------------|
+| ![Clinex](Clinex.png) | ![Symptoms Detail](Symptoms.png) 
+
+| Dashboard   | Assistant  |
+|----------------------|----------------------|
+| ![Dashboard](Dashboard.png) | ![Assitant](Assistant.png) |
+
+## 🚀 Future scope
+- **Data Privacy and Security**
+
+Plan to implement HIPAA-compliant measures
+
+- **Cross-Device Monitoring**
+
+Integration with wearable health devices
+
+- **Telemedicine Integration**
+
+Direct video consultations with verified professionals
+
+- **Multi-Language Support**
+
+  ## ⚠️ Prototype Limitations
+
+- Currently, Prototype assistant has limited dataset.
+- Due to time constraints, state handling of the user has error in implementation.
+- A key future goal is to increase the dataset of the AI assistant.
+
+---
+
+## 👥 Contributors
+
+- **Team Name:** Learners  
+- **Members:**  
+  - Shyam Kumar(Leader)
+  - Soham Nag
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+*Made with ❤️ for good health of every individual*
 
 

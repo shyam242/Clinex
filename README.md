@@ -54,7 +54,7 @@ Clinex empowers users to:
 |                |
 +----------------+
 
-QR Code Generation & One-Time Access Flow Integrated
+Symptoms analysed and health tips generated
 ```
 
 ---

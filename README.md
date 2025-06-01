@@ -67,13 +67,14 @@ QR Code Generation & One-Time Access Flow Integrated
 git clone https://github.com/shyam242/Clinex/
 cd Clinex
 ```
-
+(Open MongoDB compass)
 2. Install dependencies for server and client:
 
 ```bash
 npm install
-cd client
-npm install
+npm install express mongoose cors
+cd backend
+node server.js
 ```
 
 3. Configure Firebase

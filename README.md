@@ -68,6 +68,7 @@ git clone https://github.com/shyam242/Clinex/
 cd Clinex
 ```
 (Open MongoDB compass)
+
 2. Install dependencies for server and client:
 
 ```bash
@@ -93,6 +94,13 @@ node backend/server.js
 | Dashboard   | Assistant  |
 |----------------------|----------------------|
 | ![Dashboard](Dashboard.png) | ![Assitant](Assistant.png) |
+
+---
+
+## Demo Video##
+https://drive.google.com/file/d/1hToKGKZbArnKN-PQPdvcvCVDqnDqjDzm/view?usp=drive_link
+
+---
 
 ## 🚀 Future scope
 - **Data Privacy and Security**
